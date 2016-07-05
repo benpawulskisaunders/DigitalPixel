@@ -70,38 +70,38 @@
                         <ul>
                             <li><a href="index.html"><div>Home</div></a></li>
                             <li>
-                                <a href="#">Complete <br /> Systems</a>
+                                <a href="#timelapse">Complete <br /> Systems</a>
                                 <ul>
                                     <li>
-                                        <a href="#heated_inserts" onclick="OpenHeatedInserts()"><div>Timelapse Solutions</div></a>
+                                        <a href="#timelapse" onclick="OpenTimelapse()"><div>Timelapse Solutions</div></a>
                                     </li>
                                     <li>
-                                        <a href="#heated_inserts" onclick="OpenHeatedInserts()"><div>Calcium Imaging <br /> Solutions</div></a>
+                                        <a href="#ca" onclick="OpenCaHiSpeed()"><div>Calcium Imaging <br /> Solutions</div></a>
                                     </li>
                                     <li>
-                                        <a href="#heated_inserts" onclick="OpenHeatedInserts()"><div>High Speed <br /> Imaging Solutions</div></a>
+                                        <a href="#ca" onclick="OpenCaHiSpeed()"><div>High Speed <br /> Imaging Solutions</div></a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#microscopeChambers"><div>Cameras</div></a>
+                                <a href="#mono"><div>Cameras</div></a>
                                 <ul>
                                     <li>
-                                        <a href="#zeiss" onclick="OpenZeiss()"><div>Monchrome Cameras</div></a>
+                                        <a href="#mono" onclick="OpenMono()"><div>Monochrome Cameras</div></a>
                                     </li>
                                     <li>
-                                        <a href="#leica" onclick="OpenLeica()"><div>Colour Cameras</div></a>
+                                        <a href="#colour" onclick="OpenColour()"><div>Colour Cameras</div></a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#heated_inserts" onclick="OpenHeatedInserts()"><div>Light <br>Sources</div></a>
+                                <a href="#light" onclick="OpenLight()"><div>Light <br>Sources</div></a>
                             </li>
                             <li>
-                                <a href="#"><div>Microscope <br />Stages</div></a>
+                                <a href="#stages" onclick="OpenStages()"><div>Microscope <br />Stages</div></a>
                             </li>
                             <li>
-                                <a href="#gas_controllers" onclick="OpenGas()"><div>Optical<br />Filters</div></a>
+                                <a href="#filters" onclick="OpenFilters()"><div>Optical<br />Filters</div></a>
                             </li>
                             <li>
                                 <a href="#about-us"><div>About Us</div></a>
@@ -308,12 +308,12 @@
 
                     <div class="col_full">
                         <div class="panel-group" id="microscopeChambers" role="tablist" aria-multiselectable="true">
-                            <!-- ZEISS -->
+                            <!-- TIMELAPSE -->
                             <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="zeiss">
+                                <div class="panel-heading" role="tab" id="timelapse">
                                     <h4 class="panel-title">
-                                        <a id="Zeiss-anchor" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Zeiss Environmental Chambers from Digital Pixel
+                                        <a id="timelapse-anchor" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Timelapse Solutions
                                         </a>
                                     </h4>
                                 </div>
@@ -399,12 +399,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- LEICA -->
+                            <!-- Ca AND HI SPEED -->
                             <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="leica">
+                                <div class="panel-heading" role="tab" id="ca">
                                     <h4 class="panel-title">
-                                        <a id="Leica-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Leica  Environmental Chambers from Digital Pixel
+                                        <a id="ca-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Calcium and High Speed Imaging Solutions
                                         </a>
                                     </h4>
                                 </div>
@@ -474,13 +474,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- OLYMPUS -->
+                            <!-- MONO -->
                             <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="olympus">
+                                <div class="panel-heading" role="tab" id="mono">
                                     <h4 class="panel-title">
-                                        <a id="Olympus-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Olympus Environmental Chambers from Digital Pixel
-
+                                        <a id="mono-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Monochromatic Cameras
                                         </a>
                                     </h4>
                                 </div>
@@ -536,12 +535,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- NIKON -->
+                            <!-- COLOUR -->
                             <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="nikon">
+                                <div class="panel-heading" role="tab" id="colour">
                                     <h4 class="panel-title">
-                                        <a id="Nikon-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            Nikon Environmental Chambers from Digital Pixel
+                                        <a id="colour-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Colour Cameras
 
                                         </a>
                                     </h4>
@@ -594,13 +593,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- THIRD PARTY -->
+                            <!-- LIGHT SOURCES -->
                             <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="andor">
+                                <div class="panel-heading" role="tab" id="light">
                                     <h4 class="panel-title">
-                                        <a id="ThirdParty-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            Andor, Crest, Witec &amp; Abberior Environmental Chambers from Digital Pixel
-
+                                        <a id="light-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            Light Sources
                                         </a>
                                     </h4>
                                 </div>
@@ -641,12 +639,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- HEATED INSERTS -->
+                            <!-- STAGES -->
                             <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="heated_inserts">
+                                <div class="panel-heading" role="tab" id="stages">
                                     <h4 class="panel-title">
-                                        <a id="HeatedInserts-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
-                                            Heated Microscope Stage Inserts
+                                        <a id="stages-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
+                                            Microscope Stages
                                         </a>
                                     </h4>
                                 </div>
@@ -680,13 +678,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- CO2 -->
+                            <!-- FILTERS -->
                             <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" o id="gas_controllers">
+                                <div class="panel-heading" role="tab" id="filters">
                                     <h4 class="panel-title">
-                                        <a id="Gas-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            CO<sub>2</sub> &amp; CO<sub>2</sub>-O<sub>2</sub> Controller Solutions
-
+                                        <a id="filters-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                            Optical Filters
                                         </a>
                                     </h4>
                                 </div>
@@ -741,74 +738,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Vibration Free Heaters-->
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" o id="vibration-free-heaters">
-                                    <h4 class="panel-title">
-                                        <a id="VibFree-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                            Vibration Free Heaters
 
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
-                                    <div class="panel-body">
-                                        <div class="panel-text">
-                                            <div><h5>Is Vibration Free Operation Really So Important?</h5></div>
-                                            <div class="text">
-                                                Is Vibration Free Operation Really So Important?
-                                                Well an increasing number of scientists think so. Their experiments really demand it.  For more demanding techniques,
-                                                such as Super Resolution Microscopy, electrophysiology, tweezer experiments or simply using a x60 or x100 objective-
-                                                the removal of this complication has obvious advantages!
-                                            </div>
-                                            <div class="text">
-                                                On the other hand, in any kind of microscopy, it is really one less thing to worry about with numerous side benefits.
-                                            </div>
-                                            <div><h5>Better Focus Stability</h5></div>
-                                            <div class="text">
-                                                Most fan based systems warm the sample area by blowing warm air into the environmental chamber- once the system detects a
-                                                drop in temperature. This method is a second order control mechanism relying on the system making an educated guess as to
-                                                the power requirements of the heater, and then has to factor in the rate of air flow in the system. This leads to well documented oscillations in the temperature at the sample, which can result in reduced cell viability as well as increased focus drift.
-                                            </div>
-                                            <div class="text">
-                                                Digital Pixel Heaters, on the other hand, gently warm the sample area from both sides and as a result reach a steady state
-                                                equilibrium with a steady flow of heat into the sample area.  The result better microscope stability- less focus drift!
-                                            </div>
-                                            <div><h5>How can I be sure that the temperature across my 96 well dish is constant?</h5></div>
-                                            <div class="text">
-                                                The only way that we can think of is by gently warming the sample area from both sides, across the width of the sample area.
-                                                Digital Pixel achieve this by using multiple heaters.  In tests,	 the temperature measured from one edge of a typical 96 or 24 well dish is constant to within the accuracy of a P100 sensor! If you blow hot air across a sample area- the physics of the situation lead to thermal gradients across the sample area.
-                                            </div>
-                                            <div><h5>Wider Temperature Range- Is it Important?</h5></div>
-                                            <div class="text">
-                                                Most Microscope Heater systems can only provide any thermal accuracy when the required temperature is 4-6<sup>o</sup>C above the ambient temperature. There is a minimum amount of heat that they can put into the system. Digital Pixel Heater systems confidently cope with
-                                                anything from 1<sup>o</sup>C above ambient to up to 50<sup>o</sup>C depending on the system configuration. This allows a wider range of samples to be studied- especially important when you have invested heavily in the latest microscope technology. Especially important for Core Facilities.
-                                            </div>
-                                            <div><h5>Reliability Really Is Important!</h5></div>
-                                            <div class="text">
-                                                Digital Pixel Heater Systems have no moving parts- no fans to break down – no air filters to replace.
-                                                As a result, our new Gen II systems have in excess of 80 equipment years in the field without a systems failure - not one has broken down!
-                                                This means much less down time on your time lapse system.
-                                            </div>
-                                            <div><h5>Cleaner Sample Environment </h5></div>
-                                            <div class="text">
-                                                The introduction of external air that is then warmed before entering the chamber –takes dirty air from outside the microscope environment- your samples are being constantly bombarded by possible contaminants. Our heating technology reduces the chances of sample contamination.
-                                            </div>
-                                            <div><h5>Summary</h5></div>
-                                            <div class="text">
-                                                <ul>
-                                                    <li>Vibration Free Operation- No fans required- Better Reliability</li>
-                                                    <li>Internal Heaters – Reduced Sample Contamination- Reduced Optical Contamination</li>
-                                                    <li>Dual Heaters – Reduced Temperature Gradients Enhanced  Homogeneity Across the Sample</li>
-                                                    <li>Wider Temperature Range- Ambient through to 45oC- Wider Range of Samples Not Possible with other Systems.</li>
-                                                    <li>Small Equipment Footprint- No Messy Tubes or Pipes</li>
-                                                    <li>Large Area Chambers Available</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 

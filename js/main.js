@@ -26,75 +26,66 @@ $(function () {
 });
 
 //Toggle accordion with navbar
-function OpenZeiss() {
+function OpenTimelapse() {
     if ($("#collapseOne").hasClass("in")) {
         return;
     }
     else {
-        document.getElementById("Zeiss-anchor").click();
+        document.getElementById("timelapse-anchor").click();
     }
 };
 
-function OpenLeica() {
+function OpenCaHiSpeed() {
     if ($("#collapseTwo").hasClass("in")) {
         return;
     }
     else {
-        document.getElementById("Leica-anchor").click();
+        document.getElementById("ca-anchor").click();
     }
 };
 
-function OpenOlympus() {
+function OpenMono() {
     if ($("#collapseThree").hasClass("in")) {
         return;
     }
     else {
-        document.getElementById("Olympus-anchor").click();
+        document.getElementById("mono-anchor").click();
     }
 };
 
-function OpenNikon() {
+function OpenColour() {
     if ($("#collapseFive").hasClass("in")) {
         return;
     }
     else {
-        document.getElementById("Nikon-anchor").click();
+        document.getElementById("colour-anchor").click();
     }
 };
 
-function OpenThirdParty() {
+function OpenLight() {
     if ($("#collapseSix").hasClass("in")) {
         return;
     }
     else {
-        document.getElementById("ThirdParty-anchor").click();
+        document.getElementById("light-anchor").click();
     }
 };
 
-function OpenHeatedInserts() {
+function OpenStages() {
     if ($("#collapseSeven").hasClass("in")) {
         return;
     }
     else {
-        document.getElementById("HeatedInserts-anchor").click();
+        document.getElementById("stages-anchor").click();
     }
 };
 
-function OpenGas() {
+function OpenFilters() {
     if ($("#collapseEight").hasClass("in")) {
         return;
     }
     else {
-        document.getElementById("Gas-anchor").click();
-    }
-};
-
-function OpenVibFree() {
-    if ($("#collapseNine").hasClass("in")) {
-        return;
-    }
-    else {
-        document.getElementById("VibFree-anchor").click();
+        document.getElementById("filters-anchor").click();
     }
 };
 
