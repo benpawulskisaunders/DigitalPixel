@@ -1644,7 +1644,7 @@ body.stretched #header.full-header .container {
 #primary-menu ul li {
     position: relative;
     float: left;
-    margin-left: 2px;
+    margin-left: -4px;
 }
 
     #primary-menu ul li.mega-menu {
@@ -1659,7 +1659,7 @@ body.stretched #header.full-header .container {
         display: block;
         height: 100px;
         line-height: 100px;
-        padding: 0 15px;
+        padding: 0 0px;
         color: #444;
         font-weight: bold;
         font-size: 13px;

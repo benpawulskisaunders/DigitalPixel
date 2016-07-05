@@ -89,5 +89,14 @@ function OpenFilters() {
     }
 };
 
+function OpenCell() {
+    if ($("#collapseNine").hasClass("in")) {
+        return;
+    }
+    else {
+        document.getElementById("cell-anchor").click();
+    }
+}
+
 
 
