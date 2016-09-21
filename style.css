@@ -2,7 +2,7 @@
 /*FIXES AND CUSTOM*/
 
 body {
-    min-width: 480px;
+    min-width: 1360px;
 }
 
 div.text {
@@ -24,6 +24,13 @@ address {
 
 #top-search {
     margin: 25px 0 40px 10px !important;
+    display:inline-flex;
+}
+
+#upper_soc_med {
+    display:inline-block;
+    padding-top:12px;
+    padding-right:7px;
 }
 
 #header.full-header #primary-menu > ul {
