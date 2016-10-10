@@ -2,7 +2,7 @@
 /*FIXES AND CUSTOM*/
 
 body {
-    min-width: 1360px;
+    min-width: 1358px;
 }
 
 div.text {
@@ -49,6 +49,14 @@ address {
 #header.full-header #logo {
     padding-right: 10px !important;
     margin-right: 10px !important;
+}
+
+span.indent-slider:nth-of-type(2){
+    margin-left:17px;
+}
+
+span.indent-slider:nth-of-type(3){
+    margin-left:34px;
 }
 
 .panel-text.test {
@@ -172,7 +180,7 @@ div.features {
     div.features div.rightmost {
         float: left;
         display: inline;
-        width: 300px;
+        width: 425px;
     }
 
     div.features:after {
