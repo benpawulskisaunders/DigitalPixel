@@ -1,4 +1,4 @@
-/* Image Box Style */
+
 .box {
     -webkit-box-shadow: 1px 1px 1px 1px #ccc;
     -moz-box-shadow: 1px 1px 1px 1px #ccc;
@@ -14,7 +14,6 @@
         height:100%;
     }
 
-    /* Caption Common Style */
     .box .caption {
         background-color: rgba(0,0,0,0);
         color: black;
@@ -118,17 +117,6 @@
     -ms-transition-delay: 500ms;
     transition-delay: 500ms;
 }
-
-/** Simple Caption :hover Behaviour **/
-/*.box:hover .simple-caption {
-    -moz-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    opacity: 1;
-    transform: translateY(-100%);
-    width: 100%;
-    overflow: visible;
-}*/
 
 /** Full Caption :hover Behaviour **/
 .box:hover .full-caption {
